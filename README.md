@@ -26,11 +26,10 @@ own C function and compiling it as detailed in this tutorial is the way to go.
 3. a cython script "py_hello_world.pyx" was written to link the .py and .h files;
 4. the Python main code "run_code.py" calling the cython-wrapped C function was created;
 5. "Makefile" was created to compile...:
-    a) ... "py_hello_world.pyx" to "py_hello_world.cpp",
-    b) ... "py_hello_world.cpp" to "py_hello_world.o" (object file),
-    c) ... "cpp_hello_world.cpp" to "cpp_hello_world.o"
-    d) ... and "py_hello_world.o" and "cpp_hello_world.o" to "py_hello_world.so" 
-           (shared object to be imported from Python's side).
+    1. ... "py_hello_world.pyx" to "py_hello_world.cpp",
+    2. ... "py_hello_world.cpp" to "py_hello_world.o" (object file),
+    3. ... "cpp_hello_world.cpp" to "cpp_hello_world.o"
+    4. ... and "py_hello_world.o" and "cpp_hello_world.o" to "py_hello_world.so" (shared object to be imported from Python's side).
            
 
 ### And should be compiled as follows:
