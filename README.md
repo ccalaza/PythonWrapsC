@@ -52,3 +52,8 @@ hello world
 
 If something went wrong you can run the "make clean" command to remove the unwanted output and try 
 again with different compiler flags.
+
+
+### Acknowledgements
+
+Huge thanks to Andreas Herten (https://github.com/AndiH/) and Felix M. for their time and effort putting these examples together!  
