@@ -38,7 +38,7 @@ own C function and compiling it as detailed in this tutorial is the way to go.
 2. run "make" command to execute "Makefile",
 
 
-### Testing the installation:
+### Testing the compilation:
 
 Check that the above described .o (x2) and .so (x1) files have been generated
 in the current directory. If it worked you are ready to run run_code.py with "python run_code.py". The 
