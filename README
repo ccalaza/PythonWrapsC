@@ -5,7 +5,7 @@
 g++ to be installed in your machine. Modifications to the "CXX" variable in the 
 Makefile to make it point to a different compiler might make it Windows-compatible).
 
-In this example we illustrate how to import a function written in C/C++ in a Python
+In this commented example we illustrate how to import a function written in C/C++ in a Python
 script, how to pass input arguments to it and have the output returned to your Python 
 code. 
 
